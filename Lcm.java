@@ -1,3 +1,4 @@
+//program to find lcm by using for loop.
 import java.util.Scanner; //scanner class is use for taking user input;
 public class Lcm{
     public static void main(String[] args){
