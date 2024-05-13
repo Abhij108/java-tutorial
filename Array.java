@@ -28,3 +28,16 @@ public class Array {
     }
     
 }
+
+/*OUTPUT:
+
+19.0
+18.0
+19.0
+luffy
+zoro
+sun
+3
+10
+
+*/
