@@ -1,3 +1,4 @@
+//taking input for arrays by  using loop 
 import java.util.Scanner;
 
 class array{
