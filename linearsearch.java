@@ -22,14 +22,20 @@ System.out.println("size of array:");
         int key = sc.nextInt();
         int ans = -1; 
 
-        // condition statement for checking the vaslues of array  from left to right ;
-        for(int i = 0 ; i<n ; i++){
-            if(key == arr[i]){
-                ans = i;
-                break;
-            }
+        // condition statement for checking the vaslues of array ;
+      //  for(int i = 0 ; i<n ; i++){
+      //      if(key == arr[i]){
+       //         ans = i;
+     //           break;
+       //     }
+       // }
+       for(int i = n-1; i>=0 ; i--){
+        if(arr[i] == key){
+            ans = i;
+            break;
         }
         System.out.println("Index value for key is =" +ans);
-        
+        sc.close();
     }
+}
 }
